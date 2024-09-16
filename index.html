@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Test Page</h1>
+    <p>This is a test page for verifying different selectors for visual regression test.</p>
+    <p>Click the button below to open an alert.</p>
+    <button class="test1" id="test1" onclick="document.querySelector('.modal').classList.add('active');">Click Me!</button>
+</div>
+<div class="modal">
+    <div class="modal-content">
+        <p>The button has been clicked!</p>
+    </div>
+</div>
+</body>
+</html>

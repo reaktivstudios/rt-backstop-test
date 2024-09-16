@@ -1,0 +1,19 @@
+{
+	"name": "@reaktiv/testing-suite",
+	"version": "0.0.1",
+	"description": "A complete testing and lint suite for RKV projects.",
+	"author": "Reaktiv",
+	"repository": "https://github.com/reaktivstudios/reaktivist",
+	"license": "ISC",
+	"scripts": {
+		"reference": "backstop reference",
+		"test": "backstop test",
+		"approve": "backstop approve"
+	},
+	"devDependencies": {
+		"backstopjs": "^6.3.23",
+		"puppeteer": "^23.3.0",
+		"lodash": "^4.17.21"
+	},
+	"dependencies": {}
+}

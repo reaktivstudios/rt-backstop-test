@@ -1,0 +1,45 @@
+{
+	"id": "backstop",
+	"viewports": [
+		{
+			"label": "desktop",
+			"width": 1440,
+			"height": 768
+		}
+	],
+	"onBeforeScript": "puppet/onBefore.js",
+	"onReadyScript": "puppet/onReady.js",
+	"scenarios": [
+		{
+			"label": "home",
+			"url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
+			"referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
+			"testCustom": {
+				"clickSelector": ".test2"
+			},
+			"referenceCustom": {
+				"clickSelector": ".test1"
+			}
+
+		}
+	],
+	"paths": {
+		"bitmaps_reference": "bitmaps_reference",
+		"bitmaps_test": "bitmaps_test",
+		"engine_scripts": "engine_scripts",
+		"html_report": "html_report",
+		"json_report": "json_report",
+		"ci_report": "ci_report"
+	},
+	"report": ["browser", "CI", "json"],
+	"engine": "puppeteer",
+	"engineOptions": {
+		"args": ["--no-sandbox"]
+	},
+	"asyncCaptureLimit": 5,
+	"asyncCompareLimit": 50,
+	"debug": false,
+	"debugWindow": false,
+	"misMatchThreshold": 20,
+	"scenarioDefaults": {}
+}

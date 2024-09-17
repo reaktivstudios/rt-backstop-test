@@ -1,0 +1,33 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_home_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20240916-155825/backstop_home_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_home_0_document_0_desktop.png",
+        "label": "home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 20,
+        "url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
+        "referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -42
+          },
+          "rawMisMatchPercentage": 0.08661859724693324,
+          "misMatchPercentage": "0.09",
+          "analysisTime": 25
+        },
+        "diffImage": "../bitmaps_test/20240916-155825/failed_diff_backstop_home_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop"
+}

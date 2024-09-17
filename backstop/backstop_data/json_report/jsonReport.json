@@ -1,0 +1,84 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/backstop_Generic_0_document_0_phone.png",
+        "referenceLog": "../../bitmaps_reference/backstop_Generic_0_document_0_phone.log.json",
+        "test": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_0_phone.png",
+        "testLog": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_0_phone.log.json",
+        "selector": "document",
+        "fileName": "backstop_Generic_0_document_0_phone.png",
+        "label": "Generic",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 20,
+        "url": "https://garris.github.io//",
+        "referenceUrl": "https://garris.github.io//",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/backstop_Generic_0_document_1_tablet.png",
+        "referenceLog": "../../bitmaps_reference/backstop_Generic_0_document_1_tablet.log.json",
+        "test": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_1_tablet.png",
+        "testLog": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_1_tablet.log.json",
+        "selector": "document",
+        "fileName": "backstop_Generic_0_document_1_tablet.png",
+        "label": "Generic",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 20,
+        "url": "https://garris.github.io//",
+        "referenceUrl": "https://garris.github.io//",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../bitmaps_reference/backstop_Generic_0_document_2_desktop.png",
+        "referenceLog": "../../bitmaps_reference/backstop_Generic_0_document_2_desktop.log.json",
+        "test": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_2_desktop.png",
+        "testLog": "../../bitmaps_test/20240913-101406/backstop_Generic_0_document_2_desktop.log.json",
+        "selector": "document",
+        "fileName": "backstop_Generic_0_document_2_desktop.png",
+        "label": "Generic",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 20,
+        "url": "https://garris.github.io//",
+        "referenceUrl": "https://garris.github.io//",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop"
+}

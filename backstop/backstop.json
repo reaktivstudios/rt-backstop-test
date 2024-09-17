@@ -12,13 +12,13 @@
 	"scenarios": [
 		{
 			"label": "home",
-			"url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
-			"referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html"
+			"url": "https://reaktivstudios.github.io/rt-backstop-test/alt.html",
+			"referenceUrl": "https://reaktivstudios.github.io/rt-backstop-test/"
 		},
 		{
 			"label": "click",
-			"url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
-			"referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
+			"url": "https://reaktivstudios.github.io/rt-backstop-test/alt.html",
+			"referenceUrl": "https://reaktivstudios.github.io/rt-backstop-test/",
 			"testCustom": {
 				"clickSelector": ".test2"
 			},

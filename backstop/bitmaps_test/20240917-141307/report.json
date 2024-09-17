@@ -1,0 +1,60 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_home_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20240917-141307/backstop_home_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_home_0_document_0_desktop.png",
+        "label": "home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.2,
+        "url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
+        "referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.0440227195850715,
+          "misMatchPercentage": "7.04",
+          "analysisTime": 27
+        },
+        "diffImage": "../bitmaps_test/20240917-141307/failed_diff_backstop_home_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_click_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20240917-141307/backstop_click_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_click_0_document_0_desktop.png",
+        "label": "click",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.2,
+        "url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
+        "referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.729901905513587,
+          "misMatchPercentage": "6.73",
+          "analysisTime": 27
+        },
+        "diffImage": "../bitmaps_test/20240917-141307/failed_diff_backstop_click_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop"
+}

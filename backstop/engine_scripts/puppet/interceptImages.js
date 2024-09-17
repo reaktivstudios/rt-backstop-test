@@ -15,13 +15,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const IMAGE_URL_RE = /\.gif|\.jpg|\.png/i;
+const IMAGE_URL_RE = /\.gif|\.jpg|\.png|\.webp/i;
 const IMAGE_STUB_URL = path.resolve(__dirname, '../imageStub.jpg');
 const IMAGE_DATA_BUFFER = fs.readFileSync(IMAGE_STUB_URL);
 const HEADERS_STUB = {};
 
 module.exports = async function (page) {
 	const intercept = async (request) => {
+		console.log('intercepted', request.url());
 		if (IMAGE_URL_RE.test(request.url())) {
 			await request.respond({
 				body: IMAGE_DATA_BUFFER,

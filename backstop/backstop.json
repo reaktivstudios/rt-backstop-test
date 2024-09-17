@@ -13,6 +13,11 @@
 		{
 			"label": "home",
 			"url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
+			"referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html"
+		},
+		{
+			"label": "click",
+			"url": "file:///Users/nickcroft/Development/rt-backstop-test/alt.html",
 			"referenceUrl": "file:///Users/nickcroft/Development/rt-backstop-test/index.html",
 			"testCustom": {
 				"clickSelector": ".test2"
@@ -40,6 +45,6 @@
 	"asyncCompareLimit": 50,
 	"debug": false,
 	"debugWindow": false,
-	"misMatchThreshold": 20,
+	"misMatchThreshold": 0.2,
 	"scenarioDefaults": {}
 }

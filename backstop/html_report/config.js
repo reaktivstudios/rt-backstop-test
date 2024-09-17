@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_home_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20240917-143436/backstop_home_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20240917-144014/backstop_home_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "backstop_home_0_document_0_desktop.png",
         "label": "home",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_click_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20240917-143436/backstop_click_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20240917-144014/backstop_click_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "backstop_click_0_document_0_desktop.png",
         "label": "click",
